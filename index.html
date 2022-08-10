@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web | Calculator</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+ 
+   <div class="body-seting">
+    <h1 class="heading">Web Calculator</h1>
+    <p class="para">click on the following button to get calculator</p>
+    <h2 class="heading">Instructions</h2>
+    <p class="para">if You want to use pie then write it first i.e, pie*8</p>
+    <div class="buttn"><button id="btun"
+      onclick="hidecalc()">Calculator</button></div>
+   
+    <div class="body" id="btn-calc">
+    
+      <div class="screen">
+        <input type="text" class="input-text" />
+      </div>
+
+      <div class="row-btn">
+        <button class="clicked ce-btn">C</button>
+        <button class="clicked ce-btn">M+</button>
+        <button class="clicked ce-btn">M-</button>
+        <button class="clicked ce-btn">pie</button>
+        
+      </div>
+      <div class="row-btn">
+        <button class="clicked">7</button>
+        <button class="clicked">8</button>
+        <button class="clicked">9</button>
+        <button class="clicked change-clr">*</button>
+      </div>
+      <div class="row-btn">
+        <button class="clicked">4</button>
+        <button class="clicked">5</button>
+        <button class="clicked">6</button>
+        <button class="clicked change-clr">-</button>
+      </div>
+      <div class="row-btn">
+        <button class="clicked">1</button>
+        <button class="clicked">2</button>
+        <button class="clicked">3</button>
+        <button class="clicked change-clr">+</button>
+      </div>
+      <div class="row-btn">
+        <button class="clicked">0</button>
+        <button class="clicked change-clr">.</button>
+        <button class="clicked more change-clr">/</button>
+        <button class="clicked change-clr">=</button>
+      </div>
+    </div>
+   </div>
+  
+
+    <script src="calc.js"></script>
+
+    <footer>
+      <p class="copy-rt">copyright 2022 | webcalculator.com</p>
+    </footer>
+  </body>
+</html>

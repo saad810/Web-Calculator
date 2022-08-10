@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body-seting{
+    height: 95vh;
+}
+.body {
+  background-color: rgb(255, 248, 247);
+  border: 6px solid rgb(255, 247, 247);
+  max-width: max-content;
+  margin: 0px auto;
+  padding: 12px;
+}
+.row-btn {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.row-btn .clicked {
+  font-size: 1.1em;
+  border: 2px solid rgb(228, 153, 141);
+  background-color: rgb(255, 247, 247);
+  padding: 12px 15px;
+  width: 45px;
+  margin: 3px 3px;
+  border-radius: 8px;
+}
+.row-btn .clicked:hover {
+  border: 2px solid rgb(248, 68, 48);
+  background-color: rgb(250, 143, 133);
+}
+
+.screen {
+  padding: 7px;
+}
+.screen .input-text {
+  padding: 12px 1px;
+  border-radius: 10px;
+  text-align: right;
+  font-size: 0.9em;
+  font-weight: 600;
+
+  border: 2px solid salmon;
+  background-color: rgb(247, 228, 226);
+}
+.screen .input-text:hover {
+  border: 2px solid rgb(255, 30, 5);
+}
+.heading {
+  text-align: center;
+  padding: 15px;
+}
+.body .row-btn .change-clr {
+  background-color: rgb(240, 201, 168);
+}
+.body .row-btn .change-clr:hover {
+  border-color: rgb(209, 99, 9);
+  background-color: rgb(235, 218, 204);
+}
+.buttn{
+    display: flex;
+    margin: 12px;
+}
+#btun {
+   
+  margin:auto;
+  padding: 7px 5px;
+  border: 2px solid ghostwhite;
+  border-radius: 12px;
+  background-color: ghostwhite;
+
+}
+#btun:hover {
+  border: 2px solid rgb(242, 242, 253);
+  background-color: rgb(225, 225, 248);
+  color: blue;
+}
+.para{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.body .row-btn .ce-btn{
+    
+    font-size: 0.8em; 
+    text-align:center;
+
+}
+footer{
+    background-color: rgb(243, 194, 189);
+}
+footer .copy-rt{
+    background-color: rgb(243, 194, 189);
+    text-align: center;
+    padding: 12px;
+}
